@@ -236,7 +236,7 @@ public class Main {
         String storeId = "test_store_id";
 
         // 业务扩展参数，目前可添加由支付宝分配的系统商编号(通过setSysServiceProviderId方法)，详情请咨询支付宝技术支持
-        String providerId = "2088100200300400500";
+        String providerId = "2088100200300400501";
         ExtendParams extendParams = new ExtendParams();
         extendParams.setSysServiceProviderId(providerId);
 
